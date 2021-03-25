@@ -7,6 +7,7 @@ Web URL: https://sachinoo.github.io/p2SachinKarki
 Below are some the car dashboard design that shows how it has been evolving.
 
 1. 1900s
+<p>     </P>
  ![1942-Ford-Super-Deluxe-image-from-wikimedia](https://user-images.githubusercontent.com/24665608/112537052-39cb0680-8d7c-11eb-9769-ea31699a33c4.jpg)
 
 2. 1910s
