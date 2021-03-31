@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="eng" />
+    <title>Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+      type="text/css"
+    />
+   
+    <title>Google Maps Clone</title>
+    <style>
+      body {
+        margin: 100;
+        padding-right: 30;
+      }
+      
+    </style>
+    <script src="dist/js/script.js" defer></script>
+
+</head>
+
+<body id="main">
+   
+    <div id="container">
+        <div id="panel-wrapper">
+            <div id="panelShadow"></div>
+            <div id="panel">
+                <div id="rightIndicator"></div>
+                <div id="leftIndicator"></div>
+                <div id="kmh">
+                    <p>0</p>
+                    <p>30</p>
+                    <p>60</p>
+                    <p>90</p>
+                    <p>120</p>
+                    <p>150</p>
+                    <p>180</p>
+                    <p>210</p>
+                    <p>240</p>
+                </div>
+               
+                <div id="gasIndication">
+                    <div id="gas-icon"><img class="gas-icon" src="dist/images/gas.png" alt=""></div>
+                    <div id="indicator-1"></div>
+                    <div id="indicator-2"></div>
+                    <div id="indicator-3"></div>
+                    <div id="indicator-4"></div>
+                    <div id="indicator-5"></div>
+                    <div id="indicator-6"></div>
+                    <div id="indicator-7"></div>
+                    <div id="indicator-8"></div>
+                </div>
+                <div id="gasIndicationMeasures">
+                    <div id="indicator1m"></div>
+                    <div id="indicator2m"></div>
+                    <div id="indicator3m"></div>
+                    <div id="indicator4m"></div>
+                    <div id="indicator5m"></div>
+                    <div id="indicator6m"></div>
+                    <div id="indicator7m"></div>
+                    <div id="indicator8m"></div>
+                </div>
+                <div id="thermoIndication">
+                    <div id="thermo-icon"><img class="thermo-icon" src="dist/images/thermo.png" alt=""></div>
+                    <div id="thermo-measurement"></div>
+                    <div id="thermoSquare"></div>
+                </div>
+                <div id="kmh-number">
+                    <h1 id="kmhSpeed">00</h1>
+                    <p id="kmhSpeedNumber">MPH</p>
+                </div>
+            
+                <div id="kmh-tkm">
+                    <div id="tkm-1">1</div>
+                    <div id="tkm-line-1"></div>
+                    <div id="tkm-2">2</div>
+                    <div id="tkm-line-2"></div>
+                    <div id="tkm-3">3</div>
+                    <div id="tkm-line-3"></div>
+                    <div id="tkm-4">4</div>
+                    <div id="tkm-line-4"></div>
+                    <div id="tkm-5">5</div>
+                    <div id="tkm-line-5"></div>
+                    <div id="tkm-6">6</div>
+                    <div id="tkm-line-6"></div>
+                    <div id="tkm-7">7</div>
+                    <div id="tkm-line-7"></div>
+                    <div id="tkm-8">8</div>
+                    <div id="tkmIndication1"></div>
+                    <div id="tkmIndication2"></div>
+                    <div id="tkmIndication3"></div>
+                    <div id="tkmIndication4"></div>
+                    <div id="tkmIndication5"></div>
+                    <div id="tkmIndication6"></div>
+                    <div id="tkmIndication7"></div>
+                </div>
+                <div id="kmh-lines">
+                    <div id="lightGreen1"></div>
+                    <div id="lightGreen2"></div>
+                    <div id="lightGreen3"></div>
+                    <div id="lightGreen4"></div>
+                    <div id="lightGreen5"></div>
+                    <div id="lightGreen6"></div>
+                    <div id="lightGreen7"></div>
+                    <div id="lightGreen8"></div>
+                    <div id="darkGreen1"></div>
+                    <div id="darkGreen2"></div>
+                    <div id="darkGreen3"></div>
+                    <div id="darkGreen4"></div>
+                    <div id="darkGreen5"></div>
+                    <div id="darkGreen6"></div>
+                    <div id="darkGreen7"></div>
+                    <div id="darkGreen8"></div>
+                    <div id="darkGreen9"></div>
+                    <div id="lightYellow1"></div>
+                    <div id="lightYellow2"></div>
+                    <div id="lightYellow3"></div>
+                    <div id="lightYellow4"></div>
+                    <div id="lightYellow5"></div>
+                    <div id="lightYellow6"></div>
+                    <div id="lightYellow7"></div>
+                    <div id="lightYellow8"></div>
+                    <div id="darkYellow1"></div>
+                    <div id="darkYellow2"></div>
+                    <div id="darkYellow3"></div>
+                    <div id="darkYellow4"></div>
+                    <div id="darkYellow5"></div>
+                    <div id="darkYellow6"></div>
+                    <div id="darkYellow7"></div>
+                    <div id="darkYellow8"></div>
+                    <div id="darkYellow9"></div>
+                    <div id="darkRed1"></div>
+                    <div id="darkRed2"></div>
+                    <div id="darkRed3"></div>
+                    <div id="darkRed4"></div>
+                    <div id="darkRed5"></div>
+                    <div id="darkRed6"></div>
+                    <div id="darkRed7"></div>
+                    <div id="darkRed8"></div>
+                    <div id="darkRed9"></div>
+                    <div id="midnightBlue1"></div>
+                    <div id="midnightBlue2"></div>
+                    <div id="midnightBlue3"></div>
+                    <div id="midnightBlue4"></div>
+                    <div id="midnightBlue5"></div>
+                    <div id="midnightBlue6"></div>
+                </div>
+                <div id="kmh-lines-start">
+                    <div id="lightGreen1Start"></div>
+                    <div id="lightGreen2Start"></div>
+                    <div id="lightGreen3Start"></div>
+                    <div id="lightGreen4Start"></div>
+                    <div id="lightGreen5Start"></div>
+                    <div id="lightGreen6Start"></div>
+                    <div id="lightGreen7Start"></div>
+                    <div id="lightGreen8Start"></div>
+                    <div id="darkGreen1Start"></div>
+                    <div id="darkGreen2Start"></div>
+                    <div id="darkGreen3Start"></div>
+                    <div id="darkGreen4Start"></div>
+                    <div id="darkGreen5Start"></div>
+                    <div id="darkGreen6Start"></div>
+                    <div id="darkGreen7Start"></div>
+                    <div id="darkGreen8Start"></div>
+                    <div id="darkGreen9Start"></div>
+                    <div id="lightYellow1Start"></div>
+                    <div id="lightYellow2Start"></div>
+                    <div id="lightYellow3Start"></div>
+                    <div id="lightYellow4Start"></div>
+                    <div id="lightYellow5Start"></div>
+                    <div id="lightYellow6Start"></div>
+                    <div id="lightYellow7Start"></div>
+                    <div id="lightYellow8Start"></div>
+                    <div id="darkYellow1Start"></div>
+                    <div id="darkYellow2Start"></div>
+                    <div id="darkYellow3Start"></div>
+                    <div id="darkYellow4Start"></div>
+                    <div id="darkYellow5Start"></div>
+                    <div id="darkYellow6Start"></div>
+                    <div id="darkYellow7Start"></div>
+                    <div id="darkYellow8Start"></div>
+                    <div id="darkYellow9Start"></div>
+                    <div id="darkRed1Start"></div>
+                    <div id="darkRed2Start"></div>
+                    <div id="darkRed3Start"></div>
+                    <div id="darkRed4Start"></div>
+                    <div id="darkRed5Start"></div>
+                    <div id="darkRed6Start"></div>
+                    <div id="darkRed7Start"></div>
+                    <div id="darkRed8Start"></div>
+                    <div id="darkRed9Start"></div>
+                    <div id="midnightBlue1Start"></div>
+                    <div id="midnightBlue2Start"></div>
+                    <div id="midnightBlue3Start"></div>
+                    <div id="midnightBlue4Start"></div>
+                    <div id="midnightBlue5Start"></div>
+                    <div id="midnightBlue6Start"></div>
+                </div>
+            </div>
+            <div id="pedals">
+                <div id="gas-brake">
+                       BREAK PADLE 
+                    <img id="brake" src="dist/images/brake.png" alt="">
+                </div>
+                <div id="gas-pedal">
+                    GAS PADLE
+                    <img id="gasReleased" src="dist/images/gas-released.png" alt="">
+                </div>
+                <div id="startEngine" class="switch demo4">
+                    POWER ON/OFF
+                    <input id="startEngineButton" type="checkbox">
+                    <label><i class="fas fa-power-off xs"></i></label>
+                </div>
+                <div id="leftIndiWrapper" class="switch demoLeft">
+                    <div id="leftIndicator2"></div>
+                    <div id="rightIndicator2"></div>
+                    <input id="leftIndi" name="arrows" type="checkbox">
+                    <label id="leftIndiColor"><i class="fas fa-arrow-left xs"></i></label>
+                </div>
+                <div id="rightIndiWrapper" class="switch demoRight">
+                    <input id="rightIndi" name="arrows" type="checkbox">
+                    <label><i class="fas fa-arrow-right xs"></i></label>
+                </div>
+                <div class="can-toggle demo-rebrand-2">
+                    <input id="e" type="checkbox">
+                    <label for="e">
+                            <div id="transmission" class="can-toggle__switch" dataChecked="D" dataUnchecked="N"></div>
+                    </label>
+                </div>
+                <div id="signal" class="switch demo4 signalButton">
+                    <input id="signalButton" type="button">
+                    <label><i class="far fa-bell xs"></i></label>
+                </div>
+            </div>
+            <div id="kmh-lines-bkg">
+                <div id="lightGreen1Bkg"></div>
+                <div id="lightGreen2Bkg"></div>
+                <div id="lightGreen3Bkg"></div>
+                <div id="lightGreen4Bkg"></div>
+                <div id="lightGreen5Bkg"></div>
+                <div id="lightGreen6Bkg"></div>
+                <div id="lightGreen7Bkg"></div>
+                <div id="lightGreen8Bkg"></div>
+                <div id="darkGreen1Bkg"></div>
+                <div id="darkGreen2Bkg"></div>
+                <div id="darkGreen3Bkg"></div>
+                <div id="darkGreen4Bkg"></div>
+                <div id="darkGreen5Bkg"></div>
+                <div id="darkGreen6Bkg"></div>
+                <div id="darkGreen7Bkg"></div>
+                <div id="darkGreen8Bkg"></div>
+                <div id="darkGreen9Bkg"></div>
+                <div id="lightYellow1Bkg"></div>
+                <div id="lightYellow2Bkg"></div>
+                <div id="lightYellow3Bkg"></div>
+                <div id="lightYellow4Bkg"></div>
+                <div id="lightYellow5Bkg"></div>
+                <div id="lightYellow6Bkg"></div>
+                <div id="lightYellow7Bkg"></div>
+                <div id="lightYellow8Bkg"></div>
+                <div id="darkYellow1Bkg"></div>
+                <div id="darkYellow2Bkg"></div>
+                <div id="darkYellow3Bkg"></div>
+                <div id="darkYellow4Bkg"></div>
+                <div id="darkYellow5Bkg"></div>
+                <div id="darkYellow6Bkg"></div>
+                <div id="darkYellow7Bkg"></div>
+                <div id="darkYellow8Bkg"></div>
+                <div id="darkYellow9Bkg"></div>
+                <div id="darkRed1Bkg"></div>
+                <div id="darkRed2Bkg"></div>
+                <div id="darkRed3Bkg"></div>
+                <div id="darkRed4Bkg"></div>
+                <div id="darkRed5Bkg"></div>
+                <div id="darkRed6Bkg"></div>
+                <div id="darkRed7Bkg"></div>
+                <div id="darkRed8Bkg"></div>
+                <div id="darkRed9Bkg"></div>
+                <div id="midnightBlue1Bkg"></div>
+                <div id="midnightBlue2Bkg"></div>
+                <div id="midnightBlue3Bkg"></div>
+                <div id="midnightBlue4Bkg"></div>
+                <div id="midnightBlue5Bkg"></div>
+                <div id="midnightBlue6Bkg"></div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+ 
+    
+    <script src="dist/js/dashboard.js"></script>
+
+    <div id='map'></div>
+    <div id="dash">
+            <img id="sideDash" src="dist/images/sideDash.png" alt="">
+    </div>
+</body>
+
+</html>
