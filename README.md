@@ -15,4 +15,15 @@ Below are some the car dashboard design that shows how it has been evolving.
 
 Pros of this configuration:
  - Readability
- - 
+
+
+
+For B
+
+Some of the common features of the above mentioned dashboards are 
+ - Visualization of Speed.
+ - Fuel Level Reading
+ - Directive lights ( Left or right Indication)
+ - Odometer Reading 
+ - Maintainance Indication.
+ - Other features such as indicating the mechanical problems in the car system)
