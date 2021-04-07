@@ -30,3 +30,12 @@ Some of the common features of the above mentioned dashboards are
 
 Othe rare uses of car dashboards are:
  - 
+
+
+
+Controls for interacting with car dashboard
+- Cruise Control (Control, Speed up and Down)
+- Media Volume (Volume Up, Volume Down and  Mute)
+- Handfree (Answering the call, Speed dail etc)
+- 
+- 
