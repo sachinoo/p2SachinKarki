@@ -27,3 +27,6 @@ Some of the common features of the above mentioned dashboards are
  - Odometer Reading 
  - Maintainance Indication.
  - Other features such as indicating the mechanical problems in the car system)
+
+Othe rare uses of car dashboards are:
+ - 
