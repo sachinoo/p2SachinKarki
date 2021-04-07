@@ -37,5 +37,5 @@ Controls for interacting with car dashboard
 - Cruise Control (Control, Speed up and Down)
 - Media Volume (Volume Up, Volume Down and  Mute)
 - Handfree (Answering the call, Speed dail etc)
-- 
+- Left and Right turn Indication (Blinker)
 - 
