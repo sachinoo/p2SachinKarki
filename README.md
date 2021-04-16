@@ -44,4 +44,13 @@ Othe rare uses of car dashboards are:
 - Headlights Control 
  And so on.
  
+ ## Common mistakes in the current Design
+ 
+ ## Improvements for the design of the Dashboard
+ 
+ ## Sketch for the suggested design
+ 
+ ![image](https://user-images.githubusercontent.com/24665608/114969658-73a0a180-9e3e-11eb-8bc2-06d8b9f02ee0.png)
+
+ 
  
