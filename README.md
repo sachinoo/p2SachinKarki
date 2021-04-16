@@ -16,8 +16,6 @@ Below are some the car dashboard design that shows how it has been evolving.
 Pros of this configuration:
  - Readability
 
-
-
 For B
 
 Some of the common features of the above mentioned dashboards are 
@@ -61,6 +59,10 @@ is divided into two parts : 1. Car Information  2 . Navigation System.
    3. The message display helps the user to get the user feedback from the system such as of there is any error such as 
      engine maintainance then it will pop up a message in the small display.
    4. The maps / navigation system is big enough so that its easy for the naviagtion.
-  These are some of the pros of this new design.
+      These are some of the pros of this new design.
   
-  
+ --------------------------------------------------------------------------------------------------------------------------------
+ 
+ Below is the design for the dashboard that I came up with 
+ 
+![New Dashboard](https://user-images.githubusercontent.com/24665608/115058872-5b1aa080-9eab-11eb-94e1-3a05739c00f0.png)
