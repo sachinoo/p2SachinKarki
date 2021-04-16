@@ -53,4 +53,14 @@ Othe rare uses of car dashboards are:
  ![image](https://user-images.githubusercontent.com/24665608/114969658-73a0a180-9e3e-11eb-8bc2-06d8b9f02ee0.png)
 
  
- 
+This design is simple as compared to the above mentioned dashboards. The new user will take no time to understand the design. It
+is divided into two parts : 1. Car Information  2 . Navigation System. 
+   1. The fonts looks pretty big enough for the user to read. 
+   2. All the functionality of the car is availabe in one screen instead of having multiple displays which will then easily 
+     distract the user.
+   3. The message display helps the user to get the user feedback from the system such as of there is any error such as 
+     engine maintainance then it will pop up a message in the small display.
+   4. The maps / navigation system is big enough so that its easy for the naviagtion.
+  These are some of the pros of this new design.
+  
+  
