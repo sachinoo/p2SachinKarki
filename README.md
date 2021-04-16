@@ -63,6 +63,30 @@ is divided into two parts : 1. Car Information  2 . Navigation System.
   
  --------------------------------------------------------------------------------------------------------------------------------
  
- Below is the design for the dashboard that I came up with 
+ Below is the design for the dashboard that I came up with. This is a touch / physical controllable prototype of a car 
+ dashboard.
  
 ![New Dashboard](https://user-images.githubusercontent.com/24665608/115058872-5b1aa080-9eab-11eb-94e1-3a05739c00f0.png)
+
+Interface Components
+1. Control Section
+ - Digital Speedometer
+ - Fuel
+ - Clock
+ - Temperature / Weather
+ - Message Display Screen
+ - Tire Pressure Measurement Display
+ - Lights Control 
+ - Info Section
+ 
+ 2. Navigation / Map Section
+  - Map with navigation function
+ 
+ 3. Air Condition / Music Player 
+  - All the a/c conrol 
+  - Music player control system.
+
+As this is a prototype, all the functions are not availbe at this moment.
+
+
+
