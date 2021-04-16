@@ -31,24 +31,17 @@ Some of the common features of the above mentioned dashboards are
 Othe rare uses of car dashboards are:
  - 
 
-## Interactive Control in a Car Dashboard
 
-1.Steering 
-2. Break
-3. Accelerator
-4. Gear Shift Padle  
-5. Turn Signals
-6. Horn 
-7. Audio Control
-8. Cruise Control
-9. Wiper Control
-10. A/C Control 
-
-
-
-Controls for interacting with car dashboard
+## Controls for interacting with car dashboard
 - Cruise Control (Control, Speed up and Down)
-- Media Volume (Volume Up, Volume Down and  Mute)
+- Media Control (Volume Up, Volume Down and  Mute)
 - Handfree (Answering the call, Speed dail etc)
 - Left and Right turn Indication (Blinker)
-- 
+- Steerin Wheel
+- Break Padle 
+- Accelarator
+- Gear Shifting Control
+- Headlights Control 
+ And so on.
+ 
+ 
