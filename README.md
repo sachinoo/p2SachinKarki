@@ -1,9 +1,14 @@
 
 Web URL:https://sachinoo.github.io/p2SachinKarki
+Demonstration Video: 
+
 
 # Interctive Car Dashboard 
+
  Car Dashboard has been in develping phase. It started from the tacticle switch style to touch screen and voice command based dashboard.
--------------------------------------------------------------------------------------------------------------------------
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 Below are some the car dashboard design that shows how it has been evolving.
 
 ![all ](https://user-images.githubusercontent.com/24665608/112539838-79472200-8d7f-11eb-872d-dcfbb668d953.png)
@@ -52,8 +57,18 @@ Othe rare uses of car dashboards are:
  And so on.
 
  ## Common mistakes in the current Design
+ 
+ - All the functions are not clear. Some of them are still confusing for me after using for several 
+   years as well.
+ - In the modern dashboards we see a lot of features with multiple displays which might distract the 
+   user easily and may cause serious conditions as well. 
 
  ## Improvements for the design of the Dashboard
+ 
+ - The design should be simple to use. 
+ - Use of less number of screens.
+ - Use of voice commands could be a better idea too. 
+  
 
  ## Sketch for the suggested design
 
