@@ -14,7 +14,15 @@ Below are some the car dashboard design that shows how it has been evolving.
 ![2014_honda_civic_ex_interior_instrument_cluster_ba3c1e1ce9ee280be60300f7a3124b1c09272f6b](https://user-images.githubusercontent.com/24665608/112540786-98927f00-8d80-11eb-8e77-c6c061ef8505.jpg)
 
 Pros of this configuration:
- - Readability
+ - Readability 
+ -  Most of the features are clear such as the fuel indication, warning signs, and other error indication as well. 
+ -  This dashboard displays all the issues currenlty in the car. It tells when is the time for oil change, tire rotation, coolant change etc.
+
+Con of this configuration:
+- When driving, the color changes which might mean something but its not known. 
+- there is a traction control button on the side but upon pressin it nothing happens. 
+- If the engine lights pop up, it doesn not show what is going on wrong.
+
 
 For B
 
@@ -73,23 +81,30 @@ is divided into two parts : 1. Car Information  2 . Navigation System.
 
 Interface Components
 1. Control Section
- - Digital Speedometer
- - Fuel
- - Clock
- - Temperature / Weather
- - Message Display Screen
- - Tire Pressure Measurement Display
- - Lights Control 
- - Info Section
+  - Digital Speedometer
+  - Fuel
+  - Clock
+  - Temperature / Weather
+  - Message Display Screen
+  - Tire Pressure Measurement Display
+  - Lights Control 
+  - Info Section
  
  2. Navigation / Map Section
-  - Map with navigation function
+   - Map with navigation function
  
  3. Air Condition / Music Player 
   - All the a/c conrol 
   - Music player control system.
 
 As this is a prototype, all the functions are not availbe at this moment.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+##Referances
+
+Mapbox: https://docs.mapbox.com/
+Spotify: https://developer.spotify.com/documentation
 
 
 
