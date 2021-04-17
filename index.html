@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=2">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="eng" />
+    <title>Car Dashbord</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+      type="text/css"
+    />
+    <title>Google Maps Clone</title>
+    <script src="dist/js/script.js" defer></script>
+
+
+
+</head>
+
+<body id="main">
+
+    <div id="container">
+      
+        <div id= "panel-wrapper">
+          
+            <div id="panel">
+                <div id="rightIndicator"> </div>
+                <div id="leftIndicator"> </div>
+                <div id="gasIndication">
+                  <div id="gas-icon"><img class="gas-icon" src="dist/images/gas.png" alt=""></div>
+                  <div id="indicator-1"></div>
+                  <div id="indicator-2"></div>
+                  <div id="indicator-3"></div>
+                  <div id="indicator-4"></div>
+                  <div id="indicator-5"></div>
+                  <div id="indicator-6"></div>
+                  <div id="indicator-7"></div>
+                  <div id="indicator-8"></div>
+              </div>
+              <div id="gasIndicationMeasures">
+                  <div id="indicator1m"></div>
+                  <div id="indicator2m"></div>
+                  <div id="indicator3m"></div>
+                  <div id="indicator4m"></div>
+                  <div id="indicator5m"></div>
+                  <div id="indicator6m"></div>
+                  <div id="indicator7m"></div>
+                  <div id="indicator8m"></div>
+              </div>
+              
+              <div id="kmh-number">
+                <h1 id="kmhSpeed">00</h1>
+                <h1 id="kmhSpeedNumber">MPH</h1>
+              </div>
+              
+              
+            </div>
+            </div>
+          <div id="pedals">
+            <div id="gas-brake">
+              BREAK PADLE 
+           <img id="brake" src="dist/images/brake.png" alt="">
+          </div>
+          <div id="gas-pedal">
+            GAS PADLE
+            <img id="gasReleased" src="dist/images/gas-released.png" alt="">
+          </div>
+          <div id="startEngine" class="switch demo4">
+            POWER ON/OFF
+            <input id="startEngineButton" type="checkbox">
+            <label><i class="fas fa-power-off xs"></i></label>
+        </div>
+        <div id="leftIndiWrapper" class="switch demoLeft">
+            LEFT TURN
+            <div id="leftIndicator2"></div>
+            <div id="rightIndicator2"></div>
+            <input id="leftIndi" name="arrows" type="checkbox">
+            <label id="leftIndiColor"><i class="fas fa-arrow-left xs"></i></label>
+        </div>
+        <div id="rightIndiWrapper" class="switch demoRight">
+          RIGHT TURN
+            <input id="rightIndi" name="arrows" type="checkbox">
+            <label><i class="fas fa-arrow-right xs"></i></label>
+        </div>
+        <div class="can-toggle demo-rebrand-2">
+            GEAR
+            <input id="e" type="checkbox">
+            <label for="e">
+                    <div id="transmission" class="can-toggle__switch" dataChecked="D" dataUnchecked="N"></div>
+            </label>
+        </div>
+        <div id="signal" class="switch demo4 signalButton">
+            HORN
+            <input id="signalButton" type="button">
+            <label><i class="far fa-bell xs"></i></label>
+        </div>
+          </div>
+        </div>
+        
+      
+
+    </div>
+    <div class="clock"></div>
+    <div id='map'></div>
+    <script src="dist/js/dashboard.js"></script>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <div id="dash">
+      <img id="lightControl" src="dist/images/light.png" alt="">
+      <img id="tirePressure" src = "dist/images/tirePressure.png" alt="">
+      <img id="warning" src = "dist/images/warning.png" alt="">
+      <img id="black" src = "dist/images/sideDashblack.png" alt="">
+      <img id="air" src = "dist/images/ac.png" alt="">
+      <img id="seat" src = "dist/images/seatBelt.png" alt="">
+      <img id="odo" src = "dist/images/ODO.png" alt="">
+      <div id="spotify">
+        <iframe src="https://open.spotify.com/embed/album/3ihwKkIMJWmmp1huNH0iWC" width="400" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+      <div class="container2">
+        <div class="radio-tile-group">
+          <div class="input-container">
+            <input id="park" class="radio-button" type="radio" name="radio" />
+            <div class="radio-tile">
+              <label for="park" class="radio-tile-label">P</label>
+            </div>
+          </div>
+      
+          <div class="input-container">
+            <input id="reverse" class="radio-button" type="radio" name="radio" />
+            <div class="radio-tile">
+            
+              <label for="reverse" class="radio-tile-label">R</label>
+            </div>
+          </div>
+      
+          <div class="input-container">
+            <input id="neutral" class="radio-button" type="radio" name="radio" />
+            <div class="radio-tile">
+          
+              <label for="neutral" class="radio-tile-label">N</label>
+            </div>
+          </div>
+      
+          <div class="input-container">
+            <input id="drive" class="radio-button" type="radio" name="radio" />
+            <div class="radio-tile">
+          
+              <label for="drive" class="radio-tile-label">D</label>
+            </div>
+          </div
+          
+        </div> 
+</div>
+
+</body>
+
+
