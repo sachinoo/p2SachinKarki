@@ -41,7 +41,9 @@ Some of the common features of the above mentioned dashboards are
  - Other features such as indicating the mechanical problems in the car system)
 
 Othe rare uses of car dashboards are:
- - 
+
+ - Traction Control button seems useless to my use as  it does not have any functionality in my car.
+ - Voice Dial Call system  as it need initial setup before the use of the feature.
 
 
 ## Controls for interacting with car dashboard
