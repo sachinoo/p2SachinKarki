@@ -66,7 +66,8 @@ is divided into two parts : 1. Car Information  2 . Navigation System.
  Below is the design for the dashboard that I came up with. This is a touch / physical controllable prototype of a car 
  dashboard.
  
-![New Dashboard](https://user-images.githubusercontent.com/24665608/115058872-5b1aa080-9eab-11eb-94e1-3a05739c00f0.png)
+![New Dashboard](https://user-images.githubusercontent.com/24665608/115096965-27f90100-9eed-11eb-9475-a63a216413da.png)
+
 
 Interface Components
 1. Control Section
