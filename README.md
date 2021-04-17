@@ -69,6 +69,7 @@ is divided into two parts : 1. Car Information  2 . Navigation System.
 ![Dashboard](https://user-images.githubusercontent.com/24665608/115096987-44953900-9eed-11eb-80e5-bf157973af95.png)
 
 
+![dash -2](https://user-images.githubusercontent.com/24665608/115097036-87571100-9eed-11eb-93e3-7da421dc30dd.png)
 
 Interface Components
 1. Control Section
